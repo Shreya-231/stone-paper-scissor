@@ -1,40 +1,49 @@
 🕹️ Stone Paper Scissors Game
 A simple and fun browser-based Stone Paper Scissors game built using HTML, CSS, and JavaScript. The user plays against the computer, and the interface updates scores and displays results in real-time.
 
-🎨 Features
-Interactive UI with clickable rock, paper, and scissors images.
-
-Live scoreboard to track user and computer scores.
-
-Real-time message display to show game results.
-
-Visually appealing design with hover effects and responsive layout.
-
-🎨 CSS Design Explanation
-Your style.css includes:
-
-Reset styles (margin: 0; padding: 0) to avoid browser defaults.
-
-Background color: Warm orange (rgb(241, 166, 68)) for the body.
-
-Centered header with dark green background and white text.
-
-Choice buttons:
-
-Large clickable areas (200x200 px).
-
-Inside each is a circular image (border-radius: 50%) for rock, paper, or scissors.
+ 50%) for rock, paper, or scissors.
 
 Hover effects:
 
-Slight transparency and pointer cursor on hover.
+🪨 Stone Paper Scissors Game 🎮
 
-Scoreboard:
+A simple, interactive Stone Paper Scissors game built using HTML, CSS, and JavaScript. Play against the computer, track your score, and enjoy a fun, responsive interface with images and smooth styling.
 
-Flexbox layout with spacing and large font sizes for scores.
+📸 Demo
 
-Result message box:
+ 
 
-Dark background, white text, large font.
+🚀 Features
 
-Rounded edges and padding for a clean look.
+🖱️ Clickable choices: Rock, Paper, Scissors
+
+🤖 Computer opponent with random moves
+
+📊 Live scoreboard (User vs Computer)
+
+💬 Real-time result message ("You win", "You lose", "It's a draw")
+
+🎨 Modern and responsive UI with hover effects and circular icons
+
+🛠️ Technologies Used
+
+HTML5 – Structure of the game
+CSS3 – Styling with Flexbox, hover effects, and layout
+JavaScript – Game logic, DOM manipulation, score handling
+
+stone-paper-scissors/
+│
+├── index.html # Game layout and UI
+├── style.css # Styling and layout (your CSS)
+├── script.js # JavaScript game logic
+└── assets/ # Images (rock.png, paper.png, scissors.png)
+
+📜 How It Works
+1. User clicks on one of the choices (Rock, Paper, or Scissors).
+2. JavaScript randomly generates the computer's choice.
+3. Game logic compares both choices:
+Rock beats Scissors
+Paper beats Rock
+Scissors beats Paper
+4. Scores are updated.
+5. A message displays the result: Win / Lose / Draw.
